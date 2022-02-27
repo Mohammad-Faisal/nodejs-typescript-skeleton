@@ -65,7 +65,7 @@ A few things to notice here
 yarn add -D @tsconfig/node16
 ```
 
-The same configuration is also available for other nodejs versions like 14 and 12.
+The same configuration is also[ available for other nodejs versions](https://github.com/tsconfig/bases) like 14 and 12.
 
 2. we are configuring _outDir_ as **"dist"** which means our bundled files will go into a new directory named _dist_
 3. We are only specifying **"src"** folder to be compiled. So all our typescript files will go there.
@@ -167,3 +167,5 @@ yarn build
 ```
 
 Now you have a working nodejs skeleton project! You can use this any way you like.
+
+### Github Repo: https://github.com/Mohammad-Faisal/nodejs-typescript-skeleton
